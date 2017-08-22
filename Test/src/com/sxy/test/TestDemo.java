@@ -7,5 +7,9 @@ public class TestDemo {
 		//新添加的代码，上传看看结果
 		System.err.println("hello world");
 	}
+	
+	public static String getName(String name) {
+		return "My Name Is"+name;
+	}
 
 }
